@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    cursor: pointer;
+}
+body{
+    background-color: #141414;
+}
+
+/*Codigo principal*/
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    margin: 0 30px;
+}
+.nav .actived{
+    font-weight: 700;
+}
+.nav-link{
+    margin-right: 15px;
+    color: white;
+    transition: .5s;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #b3b3b3;
+}
+.nav-right img{
+    width: 20px;
+    margin-right: 30px;
+}
+.nav-right .search-icon{
+    width: 25px;
+}
+header{
+    background-image: url(../img/bgfilme.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.img-title-film{
+    max-width: 50%;
+}
+.title-film{
+    color: white;
+}
+.div-title-film{
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 80%;
+    max-width: 595px;
+}
+.div-title-film p{
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+}
+.button-play{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 130px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.button-play span{
+    margin: 0 auto;
+    display: flex;
+}
+.button-play img{
+    width: 15px;
+    margin-right: 10px;
+}
+.button-info{
+    width: 210px;
+    background-color:#5d5e62;
+    display: flex;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.button-info img{
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+}
+.button-info span{
+    display: flex;
+    margin: 0 auto;
+}
+.nav-right .profile-netflix{
+    border-radius: 5px;
+    width: 25px;
+}
+.top10{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+.top10 img{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.notifications-span{
+    position: relative;
+}
+.notifications-span::after{
+    content: attr(notif);
+    color: white;
+    position: absolute;
+    top: -4px;
+    left: 8px;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 2px 5px;
+}
+
+/*Filmes*/
+.title-category{
+    color: white;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.film-item:first-child{
+    margin-left: 40px;
+}
+.section{
+    margin-top: 40px;
+    margin-bottom: -150px;
+    position: relative;
+}
+.section:hover{
+    z-index: 9;
+}
+.film-img{
+    max-width: 250px;
+    display: block;
+}
+.film-div{
+    max-width: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+    /* ANIMATION */
+    transition: 0.5s;
+}
+.films-items{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 30px 0;
+}
+.films-items::-webkit-scrollbar{
+    display: none;
+}
+
+.film-item{
+    margin-right: 10px;
+}
+
+/*Filmes hover*/
+.film-div:hover{
+    /* ANIMATION */
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+.film-div:hover .film-hover{
+    /* ANIMATION */
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.film-hover{
+    background-color: #262626;
+    width: 100%;
+    height: 130px;
+    padding: 0 10px;
+
+    /* ANIMATION */
+    transform: scale(0);
+}
+
+
+.film-hover p{
+    color: #9e9393;
+    font-size: 12px;
+}
+.film-hover p span{
+    color: white;
+}
+.film-icons{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 25px;
+}
+.film-icons span{
+    border: 2px solid rgb(80, 80, 80);
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.film-icons .play-actived{
+    border: 0;
+    background-color: white;
+    padding: 15px;
+    color: black;
+}
+
+/*Modal*/
+.modal{
+    width: 850px;
+    height: 600px;
+    background-color: #181818;
+    border-radius: 10px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99999;
+
+    display: none;
+    animation: animateModal;
+    animation-duration: 500ms;
+
+    pointer-events: visible;
+}
+@keyframes animateModal{
+    from{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+}
+.close-modal{
+    width: 36px;
+    height: 36px;
+    background-color: #181818;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 94%;
+    cursor: pointer;
+}
+.close-icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.modal-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0% 15%;
+}
+
+.info-modal{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-left{
+    color: white;
+    width: 400px;
+}
+.data-and-seasons{
+    display: flex;
+    align-items: center;
+}
+.data-and-seasons img{
+    margin: 0 10px;
+}
+.img-hd{
+    width: 40px;
+}
+.title-episode{
+    margin-top: 15px;
+}
+.title-episode h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+.title-episode span{
+    font-weight: 400;
+}
+.title-episode p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.info-right{
+    width: 250px;
+    font-size: 14px;
+}
+.info-right p{
+    color: white;
+    margin-top: 20px;
+}
+.info-right span{
+    color: #777777;
+}
+.play-modal{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.modal-icons span{
+    margin: 0px 15px;
+    color: white;
+    border: 2px solid rgb(184, 184, 184);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.button-play-modal{
+    margin-top: 0;
+}
+.modal img{
+    pointer-events: none;
+}

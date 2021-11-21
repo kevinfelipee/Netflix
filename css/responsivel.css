@@ -1,0 +1,132 @@
+/*responsivel*/
+@media (min-width: 1500px){
+    .div-title-film{
+        max-width: 1000px;
+        padding-top: 200px;
+    }
+}
+@media (max-width: 900px) {
+    .bombando, .minhalista{
+        display: none;
+    }
+    .logo{
+        width: 50px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .nav-link{
+        font-size: 10px;
+    }
+    .nav-right img{
+        width: 13px;
+        margin-right: 10px;
+    }
+    .nav-right .search-icon{
+        width: 15px;
+    }
+    .nav-right .profile-netflix{
+        width: 15px;
+        margin-right: 0;
+    }
+
+    .notifications-span::after{
+        content: attr(notif);
+        color: white;
+        position: absolute;
+        top: -4px;
+        left: 6px;
+        background-color: red;
+        font-size: 9px;
+        border-radius: 15px;
+        padding: 2px 4px;
+    }
+
+    .film-img, .film-div, .film-hover{
+        max-width: 150px;
+    }
+    .film-hover{
+        padding: 10px 13px;
+        height: 90px;
+    }
+    .film-icons{
+        padding-top: 0px;
+        margin-bottom: 20px;
+    }
+    .film-icons .play-actived{
+        padding: 6px;
+        font-size: 15px;
+    }
+    .film-icons span{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .film-hover p{
+        font-size: 10px;
+    }
+
+    /*Modal*/
+    .modal{
+        width: 450px;
+        height: 550px;
+    }
+    .info-right{
+        display: none;
+    }
+    .modal-icons span{
+        margin: 0;
+        padding: 5px;
+    }
+    .play-modal{
+        margin-top: 0;
+    }
+    .close-modal{
+        left: 90%;
+    }
+}
+@media (max-width: 500px) {
+    .img-title-film{
+        max-width: 80%;
+    }
+    .div-title-film{
+        padding-left: 20px;
+        padding-top: 80px;
+    }
+    .div-title-film p, .top10{
+        font-size: 17px;
+    }
+    .button-play{
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .button-info{
+        font-size: 13px;
+        padding: 10px 20px;
+        width: 230px;
+    }
+
+    /*Modal*/
+    .modal{
+        width: 300px;
+        height: 500px;
+    }
+    .img-hd{
+        display: none;
+    }
+    .title-episode h2{
+        font-size: 15px;
+    }
+    .title-episode p{
+        font-size: 14px;
+    }
+    .modal-image{
+        height: 150px;
+    }
+    .button-play-modal{
+        margin-right: 10px;
+    }
+    .close-modal{
+        top: 5px;
+        left: 88%;
+    }
+}

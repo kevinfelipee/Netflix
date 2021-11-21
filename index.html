@@ -1,0 +1,2725 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivel.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-left flex-div">
+                <img src="img/netflix.svg" class="logo">
+                <a href="#" class="nav-link actived">Início</a>
+                <a href="#" class="nav-link">Série</a>
+                <a href="#" class="nav-link">Filmes</a>
+                <a href="#" class="nav-link bombando">Bombando</a>
+                <a href="#" class="nav-link minhalista">Minha lista</a>
+            </ul>
+            <ul class="nav-right flex-div">
+                <img src="img/search.png" class="search-icon">
+
+                <span class="notifications-span flex-div" notif="4">
+                    <img src="img/notifications.png" class="notifications-icon">
+                </span>
+
+                <img src="img/simon.png" class="profile-netflix">
+            </ul>
+        </nav>
+
+        <div class="title-film">
+            <div class="div-title-film">
+                <img src="img/namefilme.png" class="img-title-film">
+
+                <div class="top10 flex-div">
+                    <img src="img/top10.png">
+                    <span>Top 3 em filmes hoje</span>
+                </div>
+
+                <p>Para salvar seu pai doente de servir no Exército Imperial, uma jovem destemida se disfarça de homem para lutar contra os invasores do norte da China.</p>
+
+                <div class="flex-div">
+                    <a href="#" type="button" class="button-play"><span><img src="img/botao-play.png">Assistir</span></a>
+                    <a href="#" type="button" class="button-info"><span><img src="img/information.png">Mais informações</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="modal">
+            <div class="close-modal">
+                <i class="bi bi-x-lg close-icon"></i>
+            </div>
+            
+            <img src="img/modal-you.jpeg" class="modal-image">
+
+            <div class="info-modal">
+                <div class="info-left">
+                    <div class="data-and-seasons">
+                        <p>2021</p>
+                        <img src="img/top10.png">
+                        <p>3 Temporadas</p>
+                        <img src="img/hd.png" class="img-hd">
+                    </div>
+                    <div class="title-episode">
+                        <h2>T3:E4 <span>"Unidos em Madre Linda"</span></h2>
+                        <p>Uma atitude impulsiva de Love deixa o casal na maior enrascada. Embora não seja uma tarefa fácil, Joe tenta encontrar uma saída sem recorrer aos métodos habituais.</p>
+                    </div>
+                </div>
+                <div class="info-right">
+                    <p><span>Elenco:</span> Penn Badgley, Victoria Pedretti, Elizabeth Lail</p>
+                    <p><span>Gêneros:</span> Séries baseadas em livros, Suspense para TV, Séries dramáticas</p>
+                    <p><span>Cenas e Momentos:</span> Sombrio, Suspense no ar</p>
+                </div>
+            </div>
+
+            <div class="play-modal">
+                <div>
+                    <a href="#" type="button" class="button-play button-play-modal"><span><img src="img/botao-play.png">Continuar</span></a>
+                </div>
+                <div class="modal-icons">
+                    <span><i class="bi bi-plus-lg"></i></span>
+                    <span><i class="bi bi-hand-thumbs-up"></i></span>
+                    <span><i class="bi bi-hand-thumbs-down"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <section class="section">
+            <h2 class="title-category">Adicionados recentementes</h2>
+
+            <div class="films-items">
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title-category">Continuar assistindo como Kevin</h2>
+
+            <div class="films-items">
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title-category">Em alta</h2>
+
+            <div class="films-items">
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:E4 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title-category">Séries Policiais</h2>
+
+            <div class="films-items">
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title-category">Comédia</h2>
+
+            <div class="films-items">
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="title-category">Drama</h2>
+
+            <div class="films-items">
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb7.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb8.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb9.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb10.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb11.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb12.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb1.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb2.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb3.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb4.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb5.jpg" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-item">
+                    <div class="film-div">
+                        <img src="img/thumb6.png" class="film-img">
+                        <div class="film-hover">
+                            <div class="film-icons">
+                                <span class="play-actived">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </span>
+                                <span>
+                                    <i class="bi bi-plus-lg"></i>
+                                </span>
+                            </div>
+
+                            <p>T3:EP06 <span>"Nome do Episódio"</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>
